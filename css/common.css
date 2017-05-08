@@ -1,0 +1,46 @@
+/* ========================================================================== */
+
+
+/* ============= STYLE FOR REGULAR SITES'S ELEMENTS  ======================== */
+
+
+/* ========================================================================== */
+
+@font-face {
+	font-family: 'UTM-Cafeta';
+	src: url('../fonts/UTM-Cafeta.ttf');
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	font-family: 'UTM-Cafeta', sans-serif, Open Sans;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+	max-width: 1100px;
+}
+
+input,
+textarea {
+	border-radius: 0px !important;
+}
+
+textarea {
+	resize: none;
+}
